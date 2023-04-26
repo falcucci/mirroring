@@ -4,11 +4,16 @@ A command line tool to mirror a website locally.
 
 Requires go 1.19 or higher.
 
-mirroging mirror – Makes (among other things) the download recursive.
+### Install
+
+```bash
+go get github.com/falcucci/mirroring
+```
 
 #### mirror
 
-Automatically crop away static borders as much as you need
+mirroging mirror – Makes (among other things) the download recursive.
+
 ```bash
 go run main.go mirror <url> <dir>
 ```
