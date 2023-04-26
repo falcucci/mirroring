@@ -1,0 +1,46 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+/vendor/
+
+# Local configuration file
+.env
+
+# Config files
+config.json
+config.yaml
+config.yml
+
+# Log files
+*.log
+
+# Packages
+*.deb
+*.rpm
+
+# pprof files
+pprof.out
+
+# Projects
+Godeps/ # Godeps directory, created by `godep save`
+_workspace/ # GOPATH directory containing packages retrieved with `go get`
+
+# Directory for generated protocol buffer code
+*.pb.go
+
+# Directory for gRPC plugin cache
+grpc_plugins_cache/
+
+# Avoid ignoring the go.mod and go.sum in the project root
+!go.mod
+!go.sum
