@@ -2,7 +2,7 @@
 
 A command line tool to mirror a website locally.
 
-![code-snippet-2](https://user-images.githubusercontent.com/33763843/234628938-aa3926a6-18fd-49be-b775-8bbaa231e303.png)
+![code-snippet-3](https://user-images.githubusercontent.com/33763843/234629800-b88993d9-01de-4174-b34e-2ef302e7441b.png)
 
 
 Requires go 1.19 or higher.
