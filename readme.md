@@ -34,6 +34,6 @@ How it works?
 - perform work in parallel where reasonable;
 - support resume functionality by checking the destination directory for downloaded pages;
 - skip downloading and processing where not necessary
- provide "happy-path" test coverage ()
+ provide "happy-path" test coverage () (missing)
 - be implemented in Go;
 
