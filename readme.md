@@ -2,6 +2,9 @@
 
 A command line tool to mirror a website locally.
 
+![code-snippet](https://user-images.githubusercontent.com/33763843/234628553-00f0456b-8fd8-422c-96bd-654306a1175a.png)
+
+
 Requires go 1.19 or higher.
 
 ### Install
