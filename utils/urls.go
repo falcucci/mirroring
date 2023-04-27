@@ -66,12 +66,14 @@ func download(url string) string {
 	return string(respBody)
 }
 
-/**
- * ValidateUrl validates a given URL string
- *
- * @param url The URL string to validate
- * @return bool Returns true if the URL is valid, false otherwise
- */
+// ValidateUrl checks if the given string is a valid URL.
+// It returns true if the URL is valid, false otherwise.
+//
+// url: The URL string to be validated.
+//
+// Example:
+//
+// valid := ValidateUrl("https://falcucci.eu.com")
 func ValidateUrl(url string) bool {
 	fmt.Println("URL: ", url)
 	pattern := `^(https?|http)://[^\s/$.?#].[^\s]*$`
