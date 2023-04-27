@@ -2,8 +2,7 @@
 
 A command line tool to mirror a website locally.
 
-![code-snippet-3](https://user-images.githubusercontent.com/33763843/234629800-b88993d9-01de-4174-b34e-2ef302e7441b.png)
-
+![code-snippet-4](https://user-images.githubusercontent.com/33763843/234997790-f24e057a-241e-489d-a8dd-fdf81847d81a.png)
 
 Requires go 1.19 or higher.
 
@@ -24,7 +23,7 @@ go run main.go mirror <url> <dir>
 example:
 
 ```
-go run main.go mirror https://www.truvity.com ./output
+go run main.go mirror https://www.falcucci.eu ./output
 ```
 
 How it works?
