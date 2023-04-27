@@ -9,6 +9,15 @@ import (
 	"strings"
 )
 
+// GetFileData(url) retrieves the data from a file given a url.
+//
+// Parameters:
+//
+//	url: The url of the file to retrieve.
+//
+// Returns:
+//
+//	The data from the file.
 func GetFileData(url string) string {
 	filename := fmt.Sprintf("./output/%s.html", strings.Replace(url, "/", "_", -1))
 	if _, err := os.Stat(filename); os.IsNotExist(err) {
@@ -25,7 +34,7 @@ func GetFileData(url string) string {
 	return content
 }
 
-// download downloads the content from the specified URL using an
+// download(url) downloads the content from the specified URL using an
 // HTTP GET request and returns it as a string.
 //
 // Parameters:
@@ -57,6 +66,12 @@ func download(url string) string {
 	return string(respBody)
 }
 
+/**
+ * ValidateUrl validates a given URL string
+ *
+ * @param url The URL string to validate
+ * @return bool Returns true if the URL is valid, false otherwise
+ */
 func ValidateUrl(url string) bool {
 	fmt.Println("URL: ", url)
 	pattern := `^(https?|http)://[^\s/$.?#].[^\s]*$`
